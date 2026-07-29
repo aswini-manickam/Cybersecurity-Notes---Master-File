@@ -10,8 +10,8 @@ Last touched: 2026-07-29
 
 | Platform | Link | Notes |
 |---|---|---|
-| LinkedIn |https://www.linkedin.com/in/aswini-manickam/ | |
-| GitHub |https://github.com/aswini-manickam/ | |
+| LinkedIn |https://www.linkedin.com/in/aswini-manickam/ | add github link ones ready|
+| GitHub |https://github.com/aswini-manickam/ | update repo|
 | Credly | | |
 
 ### Badges earned
