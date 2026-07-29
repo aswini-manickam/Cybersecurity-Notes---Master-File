@@ -96,9 +96,9 @@ Last touched: 2026-07-29
 
 ## 4. CV
 
-- Latest CV: [link]
-- Last updated: 
-- Target role(s): 
+- Latest CV: [[link](https://www.overleaf.com/project/6a69db0ea1f2e0ee558af2c3)]
+- Last updated:29 Jul 2026 
+- Target role(s): Cybersecurity Analyst, Cybersecurity Engineer
 
 ### Version history
 
