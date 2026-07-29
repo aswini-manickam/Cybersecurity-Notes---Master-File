@@ -10,8 +10,8 @@ Last touched: 2026-07-29
 
 | Platform | Link | Notes |
 |---|---|---|
-| LinkedIn | | |
-| GitHub | | |
+| LinkedIn |https://www.linkedin.com/in/aswini-manickam/ | |
+| GitHub |https://github.com/aswini-manickam/ | |
 | Credly | | |
 
 ### Badges earned
@@ -54,13 +54,11 @@ Last touched: 2026-07-29
 
 | Cert | Status | Target/Done date | Notes |
 |---|---|---|---|
-| | | | |
+|TAFESA Project management | 🟡| Oct 2026 | Project integration module in progress|
 
 ---
 
 ## 3. Resources worth keeping
-
-Only things I've actually used and trust.
 
 ### Video / channels
 
