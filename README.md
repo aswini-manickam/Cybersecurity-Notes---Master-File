@@ -55,6 +55,8 @@ Last touched: 2026-07-29
 | Cert | Status | Target/Done date | Notes |
 |---|---|---|---|
 |TAFESA Project management | 🟡| Oct 2026 | Project integration module in progress - Assessment 1 due July 31|
+|COMPTIA secuirty plus|🟡| Aug 8 2026 | Revise |
+
 
 ---
 
