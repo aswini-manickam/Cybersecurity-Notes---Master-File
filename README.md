@@ -2,7 +2,7 @@
 
 Personal tracker for everything cybersecurity-related: profiles, courses, resources, CV, news. One file, always current.
 
-Last touched: 2026-07-29
+Last touched: 2026-08-02
 
 ---
 
@@ -54,7 +54,7 @@ Last touched: 2026-07-29
 
 | Cert | Status | Target/Done date | Notes |
 |---|---|---|---|
-|TAFESA Project management | 🟡| Oct 2026 | Project integration module in progress - Assessment 1 due July 31|
+|TAFESA Project management | 🟡| Oct 2026 | Project integration module in progress|
 |COMPTIA secuirty plus|🟡| Aug 8 2026 | Revise |
 
 
@@ -66,7 +66,9 @@ Last touched: 2026-07-29
 
 | Name | Focus | Link | Why it's good |
 |---|---|---|---|
-| Professor Messer | CompTIA | https://www.professormesser.com/ | Free, structured, exam-aligned |
+| Professor Messer | CompTIA | https://www.professormesser.com/ | Free,bite sized, structured, exam-aligned |
+|
+
 
 ### Blogs / guides
 
