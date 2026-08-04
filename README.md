@@ -107,22 +107,7 @@ Last touched: 08/04/2026
 - Last updated:07/29/2026
 - Other related [[link](https://github.com/aswini-manickam/cv_link)] (private repo)
 
-### Version history
-
-| Date | Version | Changes |
-|---|---|---|
-| | | |
-
-### Supporting docs
-
-| Doc | Link |
-|---|---|
-| Cover letter | |
-| References | |
-| Project writeups | |
-
 ---
-
 ## 5. News & Forums
 
 ### Sources I check
