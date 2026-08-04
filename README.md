@@ -12,7 +12,7 @@ Last touched: 2026-08-02
 |---|---|---|
 | LinkedIn |https://www.linkedin.com/in/aswini-manickam/ | add github link ones ready|
 | GitHub |https://github.com/aswini-manickam/ | update repo|
-| Credly | | |
+| Credly |https://www.credly.com/earner/dashboard | Certificate verfication|
 
 ### Badges earned
 
