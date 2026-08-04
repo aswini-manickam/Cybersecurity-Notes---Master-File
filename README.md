@@ -104,8 +104,8 @@ Last touched: 08/04/2026
 ## 4. CV
 
 - Latest CV: [[link](https://www.overleaf.com/project/6a69db0ea1f2e0ee558af2c3)]
-- Last updated:29 Jul 2026 
-other related [[link](https://github.com/aswini-manickam/cv_link)] (private repo)
+- Last updated:07/29/2026
+- Other related [[link](https://github.com/aswini-manickam/cv_link)] (private repo)
 
 ### Version history
 
