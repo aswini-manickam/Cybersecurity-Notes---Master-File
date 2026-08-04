@@ -16,9 +16,14 @@ Last touched: 2026-08-02
 
 ### Badges earned
 
-| Badge | Issuer | Date | Link |
-|---|---|---|---|
-| | | | |
+| Badge | Issuer | Date | Credential ID | Link |
+|---|---|---|---|---|
+| Designing Cisco Security Infrastructure| Cisco | 06/26/2026 | 87ac6b00-4133-4ab7-8a80-fdbfd89d1393 | [[link](https://www.credly.com/badges/87ac6b00-4133-4ab7-8a80-fdbfd89d1393/public_url)] |
+| CCNA Cybersecurity |Cisco | 6/26/2026 | 0227f67a-2a65-4acc-882a-edd72041c464 | [[link](https://www.credly.com/badges/0227f67a-2a65-4acc-882a-edd72041c464/public_url)] |
+| CyberOps Associate | Cisco | 1/30/2026 | b00efb02-44c1-4270-8afa-138a5314841b | [[link](https://www.credly.com/badges/b00efb02-44c1-4270-8afa-138a5314841b/public_url)] |
+| Certified in Cybersecurity (CC) | ISC2 | 12/29/2025 | f036eac4-d8ae-4123-a6dd-cc94ea9d4844 | [[link](https://www.credly.com/badges/f036eac4-d8ae-4123-a6dd-cc94ea9d4844/public_url)] |
+| AWS Academy Graduate - Cloud Foundations - Training Badge | Amazon Web Services Training and Certification | 9/23/2023 | 2469c314-2347-4377-bf60-ee653238efc8 | [[link](https://www.credly.com/badges/2469c314-2347-4377-bf60-ee653238efc8/public_url)] |
+
 
 ### Posts / milestones worth remembering
 
