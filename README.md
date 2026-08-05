@@ -67,6 +67,12 @@ Last touched: 08/04/2026
 
 ## 3. Resources worth keeping
 
+### Datasets
+
+| Name | Focus | Link | Notes |
+|---|---|---|---|
+| Splunk Attack dataset |Attack data | https://research.splunk.com/attack_data/| Used in [SOC-alert-triage-MITRE-ATT-CK-detection-mapping lab](https://github.com/aswini-manickam/SOC-alert-triage-MITRE-ATT-CK-detection-mapping)|
+
 ### Video / channels
 
 | Name | Focus | Link | Why it's good |
@@ -98,6 +104,7 @@ Last touched: 08/04/2026
 | Name | Focus | Link | Notes |
 |---|---|---|---|
 | | | | |
+
 
 ---
 
