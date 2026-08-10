@@ -39,9 +39,9 @@ Last touched: 08/04/2026
 
 ### TryHackMe
 
-| Room/Path | Status | Completed | Link | Notes |
-|---|---|---|---|---|
-| | | | | |
+| Room/Path | Status | Link | Notes |
+|---|---|---|---|
+| SOC Role in Blue Team | 🟢 | [Click here](https://tryhackme.com/room/socroleinblueteam?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=6a4fd5fca0cd9d4c8adf056e) | This challenge covers - how SOC team works, where it is placed in the security structure |
 
 ### Cisco U
 
