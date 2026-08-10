@@ -27,9 +27,10 @@ Last touched: 08/04/2026
 
 ### Posts / milestones worth remembering
 
-| Date | Platform | What | Link |
-|---|---|---|---|
-|8/4/2026 | Github project | | Added soon after moving it to public|
+ | Platform | What | Link |
+|---|---|---|
+| Github | SOC-alert-triage-MITRE-ATT-CK-detection-mapping - Okta Session-Cookie Theft Detection - T1539 Correlation Search (AiTM Phishing Context) | [Click here](https://github.com/aswini-manickam/SOC-alert-triage-MITRE-ATT-CK-detection-mapping/blob/main/Okta%20Session-Cookie%20Theft%20Detection.md)|
+| Github |soc-design-implementation| [Click here](https://github.com/aswini-manickam/soc-design-implementation)|
 
 ---
 
@@ -48,7 +49,7 @@ Last touched: 08/04/2026
 
 | Course | Status | Link | Notes |
 |---|---|---|---|
-| AI Agent Security and Defense |⚪ | [Click here](https://u.cisco.com/search?query=ai&referrerUrl=https://u.cisco.com/)| Advance course|
+| AI Agent Security and Defense | ⚪ | [Click here](https://u.cisco.com/search?query=ai&referrerUrl=https://u.cisco.com/)| Advance course|
 
 ### Other platforms
 
