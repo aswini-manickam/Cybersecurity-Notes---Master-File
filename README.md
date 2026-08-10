@@ -99,7 +99,8 @@ Last touched: 08/11/2026
 
 | Name | Purpose | Link | Notes |
 |---|---|---|---|
-| | | | |
+| draw.io | Security-first diagramming for teams| https://www.drawio.com/ | Used in [soc-design-implementation](https://github.com/aswini-manickam/soc-design-implementation) repo |
+
 
 ### Podcasts
 
