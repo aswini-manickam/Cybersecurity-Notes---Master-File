@@ -70,6 +70,12 @@ Last touched: 08/12/2026
 
 ## 3. Resources worth keeping
 
+## Frameworks
+|Framework | Focus | Link | When to use |
+|MITRE ATLAS|ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) living knowledge base of adversary tactics and techniques against Al-enabled systems|[MITRE ATLAS link](https://atlas.mitre.org/)|---|
+|Framework | Focus | Link | When to use |
+
+
 ### Datasets
 
 | Name | Focus | Link | Notes |
