@@ -2,7 +2,7 @@
 
 Personal tracker for everything cybersecurity-related: profiles, courses, resources, CV, news. One file, always current.
 
-Last touched: 08/11/2026
+Last touched: 08/12/2026
 
 ---
 
@@ -101,16 +101,6 @@ Last touched: 08/11/2026
 |---|---|---|---|
 | draw.io | Security-first diagramming for teams| https://www.drawio.com/ | Used in [soc-design-implementation](https://github.com/aswini-manickam/soc-design-implementation) repo |
 
-
-### Podcasts
-
-| Name | Focus | Link | Notes |
-|---|---|---|---|
-| | | | |
-
-
----
-
 ## 4. CV
 
 - Latest CV: [[link](https://www.overleaf.com/project/6a69db0ea1f2e0ee558af2c3)]
@@ -140,18 +130,4 @@ Last touched: 08/11/2026
 
 | Name | Cadence | Link |
 |---|---|---|
-| tl;dr sec | Weekly | https://tldrsec.com/ |
 
-### Articles / discussions worth remembering
-
-| Date | Title | Source | Link | Why it matters |
-|---|---|---|---|---|
-| | | | | |
-
----
-
-## Log
-
-| Date | What changed |
-|---|---|
-| 2026-07-29 | File created |
