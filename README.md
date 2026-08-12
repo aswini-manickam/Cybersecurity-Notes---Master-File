@@ -133,8 +133,5 @@ Last touched: 08/12/2026
 | r/cybersecurity | General | https://reddit.com/r/cybersecurity |
 | r/netsec | Technical | https://reddit.com/r/netsec |
 
-### Newsletters
-
-| Name | Cadence | Link |
-|---|---|---|
+----------------------
 
