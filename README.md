@@ -2,7 +2,7 @@
 
 Personal tracker for everything cybersecurity-related: profiles, courses, resources, CV, news. One file, always current.
 
-Last touched: 08/12/2026
+Last touched: 08/13/2026
 
 ---
 
@@ -33,7 +33,11 @@ Last touched: 08/12/2026
 | Github | SOC-alert-triage-MITRE-ATT-CK-detection-mapping - Okta Session-Cookie Theft Detection - T1539 Correlation Search (AiTM Phishing Context) | [Click here](https://github.com/aswini-manickam/SOC-alert-triage-MITRE-ATT-CK-detection-mapping/blob/main/Okta%20Session-Cookie%20Theft%20Detection.md)|
 | Github |soc-design-implementation| [Click here](https://github.com/aswini-manickam/soc-design-implementation)|
 
----
+### Events attended
+
+| Date | Event | Organizer | Notes| Link |
+|---|---|---|---|---|
+| 08/13/2026 | Fortinet APAC Security Operations Demo Day | Fortinet | Covered AI-native Security Fabric: FortiDLP (network + endpoint), FortiNDR (SPAN-based traffic analysis, PCAP workflow), FortiSOC (AI-assisted case summarization). Two demo scenarios - shadow AI data upload, attacker exfiltration via AI site. Planning open-source lab case study off this | Live session|
 
 ## 2. Courses & Certifications
 
