@@ -76,8 +76,9 @@ Last touched: 08/14/2026
 
 ## Frameworks
 |Framework | Focus | Link | When to use |
+|--- |---| ---|---|
 |MITRE ATLAS|ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) living knowledge base of adversary tactics and techniques against Al-enabled systems|[MITRE ATLAS link](https://atlas.mitre.org/)|---|
-|Framework | Focus | Link | When to use |
+
 
 
 ### Datasets
@@ -99,11 +100,6 @@ Last touched: 08/14/2026
 |---|---|---|---|
 | Microsoft Sentinel| Sentinel Training Lab| [Click here](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/introducing-the-microsoft-sentinel-training-lab-hands-on-security-operations-in-/4513274)|  Sentinel Training Lab details|
 
-### Books
-
-| Title | Author | Topic | Notes |
-|---|---|---|---|
-| | | | |
 
 ### Tools / cheat sheets
 
@@ -128,6 +124,7 @@ Last touched: 08/14/2026
 | BleepingComputer | Breaches, malware | https://www.bleepingcomputer.com/ |
 | Krebs on Security | Investigative | https://krebsonsecurity.com/ |
 | Dark Reading | Enterprise security | https://www.darkreading.com/ |
+|Crowdstrike|Crowdstrike 2026 Threat hunting report|[Click here](https://www.crowdstrike.com/explore/2026-threat-hunting-report?utm_campaign=threathuntingreport&utm_content=-em-report-pcta&utm_language=en-au&utm_medium=emc&utm_source=mkto)|
 
 ### Forums / communities
 
