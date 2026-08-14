@@ -2,7 +2,7 @@
 
 Personal tracker for everything cybersecurity-related: profiles, courses, resources, CV, news. One file, always current.
 
-Last touched: 08/13/2026
+Last touched: 08/14/2026
 
 ---
 
@@ -91,14 +91,13 @@ Last touched: 08/13/2026
 | Name | Focus | Link | Why it's good |
 |---|---|---|---|
 | Professor Messer | CompTIA | https://www.professormesser.com/ | Free,bite sized, structured, exam-aligned |
-|
 
 
 ### Blogs / guides
 
 | Name | Focus | Link | Notes |
 |---|---|---|---|
-| Microsoft Sentinel| Sentinel Training Lab| [Click here](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/introducing-the-microsoft-sentinel-training-lab-hands-on-security-operations-in-/4513274)]|  Sentinel Training Lab details|
+| Microsoft Sentinel| Sentinel Training Lab| [Click here](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/introducing-the-microsoft-sentinel-training-lab-hands-on-security-operations-in-/4513274)|  Sentinel Training Lab details|
 
 ### Books
 
