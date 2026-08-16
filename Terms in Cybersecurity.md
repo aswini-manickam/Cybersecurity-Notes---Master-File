@@ -15,10 +15,11 @@ Updated regularly.
 | VM Sprawl | --- | ☁️/🔀 | Resource reuse, asset management, shadow IT | --- | 	VMs left running/not deprovisioned after they're no longer needed -Vulnerability - wastes resources and expands attack surface | CompTIA Security plus Security plus |
 | Legacy Vulnerabilities | --- | 🏢/🔀| related terms | --- | Systems still running after the manufacturer has stopped supporting/patching them | CompTIA Security plus |
 | Baseline Lifecycle| --- | 🌐 | 1. Baseline configuration(Establishing) ,2. Baseline deployment, 3. Baseline deviation/Drift (Maintaining), 4. Patch management(	Update)| tools/vendors | cycle: establish → deploy → maintain → update | CompTIA Security plus |
-| Simple Network Management Protocol | SNMP | 🌐 | Network monitoring, MIB, traps, TCP/IP | SolarWinds, PRTG, Nagios | Monitors/manages network-attached devices | CompTIA Security plus |
-| File Transfer Protocol | FTP | 🌐 | SFTP, FTPS, TCP port 21 | FileZilla, WinSCP | Transfers files - unencrypted by default, so it's often flagged as insecure vs SFTP/FTPS | CompTIA Security plus |
-| Simple Mail Transfer Protocol | SMTP | 🌐 | Email security, SPF, DKIM, DMARC | Postfix, Exchange, Sendmail | Sends/relays email — receiving uses different protocols (POP3/IMAP), a common exam trap| CompTIA Security plus |
-| Domain Name System | DNS | ☁️/🏢/🔀/🌐 | DNS spoofing, DNS sinkholing, DNSSEC | BIND, Pi-hole, Route 53 | Translates domain names to IP addresses — frequently abused for spoofing/poisoning/tunneling attacks | CompTIA Security plus|
+| Simple Network Management Protocol | SNMP | 🌐 | Network monitoring, MIB, traps, TCP/IP | SolarWinds, PRTG, Nagios | **Monitors**/manages network-attached devices | CompTIA Security plus |
+| File Transfer Protocol | FTP | 🌐 | SFTP, FTPS, TCP port 21 | FileZilla, WinSCP | **Transfers** files - unencrypted by default, so it's often flagged as insecure vs SFTP/FTPS | CompTIA Security plus |
+| Simple Mail Transfer Protocol | SMTP | 🌐 | Email security, SPF, DKIM, DMARC | Postfix, Exchange, Sendmail | **Sends/relays email** receiving uses different protocols (POP3/IMAP), a common exam trap| CompTIA Security plus |
+| Domain Name System | DNS | ☁️/🏢/🔀/🌐 | DNS spoofing, DNS sinkholing, DNSSEC | BIND, Pi-hole, Route 53 | Translates/**Resolves** domain names to IP addresses frequently abused for spoofing/poisoning/tunneling attacks | CompTIA Security plus|
+
 ---
 
 ### Quick-Add Row (copy & fill)
