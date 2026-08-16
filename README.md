@@ -67,7 +67,7 @@ Last touched: 08/16/2026
 | Cert | Status | Target/Done date | Notes |
 |---|---|---|---|
 |TAFESA Project management | 🟡| Oct 2026 | Project integration module in progress|
-|COMPTIA secuirty plus|🟡| Aug 8 2026 | Revise |
+|COMPTIA secuirty plus|🟡| Aug 8 2026 | Revise - areas to focus - sequencing question types.|
 
 
 ---
@@ -93,7 +93,9 @@ Last touched: 08/16/2026
 
 | Name | Focus | Link | Why it's good |
 |---|---|---|---|
-| Professor Messer | CompTIA | https://www.professormesser.com/ | Free,bite sized, structured, exam-aligned |
+| Professor Messer | CompTIA security plus | https://www.professormesser.com/ | Free,bite sized, structured, exam-aligned |
+|Inside Cloud and Security|CompTIA security plus |[Link](https://www.youtube.com/watch?v=1E7pI7PB4KI&list=PL7XJSuT7Dq_UDJgYoQGIW9viwM5hc4C7n&index=1)|Domain -focused|
+|---|---|---|---|
 
 
 ### Blogs / guides
