@@ -14,6 +14,7 @@ Updated regularly.
 | VM Escape | --- | ☁️/🔀 | 	Hypervisor, resource reuse, multi-tenancy | ---| Vulnerability in the hypervisor lets an attacker break out of their VM and access the host or other VMs |Comptia security+|
 | VM Sprawl | --- | ☁️/🔀 | Resource reuse, asset management, shadow IT | --- | 	VMs left running/not deprovisioned after they're no longer needed -Vulnerability - wastes resources and expands attack surface | Comptia security+ |
 | Legacy Vulnerabilities | --- | 🏢/🔀| related terms | --- | Systems still running after the manufacturer has stopped supporting/patching them | Comptia security+ |
+| Baseline Lifecycle| --- | 🌐 | 1. Baseline configuration(Establishing) ,2. Baseline deployment, 3. Baseline deviation/Drift (Maintaining), 4. Patch management(	Update)| tools/vendors | cycle: establish → deploy → maintain → update | Comptia security+|
 
 
 ---
