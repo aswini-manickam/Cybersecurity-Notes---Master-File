@@ -18,7 +18,7 @@ Updated regularly.
 | Simple Network Management Protocol | SNMP | 🌐 | Network monitoring, MIB, traps, TCP/IP | SolarWinds, PRTG, Nagios | Monitors/manages network-attached devices | CompTIA Security plus |
 | File Transfer Protocol | FTP | 🌐 | SFTP, FTPS, TCP port 21 | FileZilla, WinSCP | Transfers files - unencrypted by default, so it's often flagged as insecure vs SFTP/FTPS | CompTIA Security plus |
 | Simple Mail Transfer Protocol | SMTP | 🌐 | Email security, SPF, DKIM, DMARC | Postfix, Exchange, Sendmail | Sends/relays email — receiving uses different protocols (POP3/IMAP), a common exam trap| CompTIA Security plus |
-| Term Name | ACRONYM | ☁️/🏢/🔀/🌐 | related terms | tools/vendors | one-liner note | Comment here to revisit|
+| Domain Name System | DNS | ☁️/🏢/🔀/🌐 | DNS spoofing, DNS sinkholing, DNSSEC | BIND, Pi-hole, Route 53 | Translates domain names to IP addresses — frequently abused for spoofing/poisoning/tunneling attacks | CompTIA Security plus|
 ---
 
 ### Quick-Add Row (copy & fill)
