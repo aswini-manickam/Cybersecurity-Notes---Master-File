@@ -2,7 +2,7 @@
 
 Personal tracker for everything cybersecurity-related: profiles, courses, resources, CV, news. One file, always current.
 
-Last touched: 08/14/2026
+Last touched: 08/16/2026
 
 ---
 
@@ -78,6 +78,8 @@ Last touched: 08/14/2026
 |Framework | Focus | Link | When to use |
 |--- |---| ---|---|
 |MITRE ATLAS|ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) living knowledge base of adversary tactics and techniques against Al-enabled systems|[MITRE ATLAS link](https://atlas.mitre.org/)|---|
+|MITRE ATT&CK®|Adversarial Threat Landscape for Systems  living knowledge base of adversary tactics and techniques against systems|[ MITRE ATT&CK®](https://attack.mitre.org/)|Used it in [Github-current-threat-landscape---case-studies](https://github.com/aswini-manickam/current-threat-landscape---case-studies)| |
+
 
 
 
