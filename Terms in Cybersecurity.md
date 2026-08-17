@@ -7,7 +7,7 @@ Updated regularly.
 **Model key:** ☁️ Cloud | 🏢 On-Prem | 🔀 Hybrid | 🌐 Common
 
 | Term | Acronym | Model |Category|  Note | Tools | Talk About It With |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | Security Information & Event Management | SIEM | 🌐 | --- | Collects/correlates logs but doesn't respond on its own - that's SOAR | Splunk, Wazuh, Sentinel, QRadar | Log aggregation, correlation, SOC, SOAR |
 | Resource Reuse | --- | ☁️ | --- | Cloud provider reassigns disks/storage to new tenants without wiping them-->vulnerability - old customer's sensitive data can leak to the new one | --- | Data remanence, disk sanitization, multi-tenancy |
 | VM Escape | --- | ☁️/🔀 | --- | Vulnerability in the hypervisor lets an attacker break out of their VM and access the host or other VMs | --- | Hypervisor, resource reuse, multi-tenancy |
@@ -20,9 +20,8 @@ Updated regularly.
 | Domain Name System | DNS | 🌐 | --- | Translates/**Resolves** domain names to IP addresses frequently abused for spoofing/poisoning/tunneling attacks | BIND, Pi-hole, Route 53 | DNS spoofing, DNS sinkholing, DNSSEC |
 | Shadow IT | — | 🌐 | Risk/Practice | Employees using unapproved tech/workarounds outside IT-approved process — e.g. personal device instead of proper guest access | — | Insider threat, unauthorized workaround, BYOD |
 | Insider Threat | — | 🌐 | Threat Actor | Someone with legitimate access who creates risk, intentionally or not — broader category than shadow IT | — | Shadow IT, unauthorized access |
-| Unskilled Attacker | — | 🌐 | Threat Actor | Script kiddie, existing tools | — | Limited technical knowledge, relies on off-the-shelf tools — not the same as an employee workaround | |
-| Rogue Access Point | — | 🏢🔀 | Hardware/Attack | Wireless security, evil twin | — | Unauthorized WAP physically connected to the network — different from a software/process workaround | |
-| Black-Box Engagement | — | 🌐 | Testing Method | Pentesting, white-box, gray-box | — | Tester has zero prior knowledge of the target system — simulates an outside attacker | |
+| Rogue Access Point | — | 🏢🔀 | Hardware/Attack | Unauthorized WAP physically connected to the network — different from a software/process workaround | — | Wireless security, evil twin |
+| Black-Box Engagement | — | 🌐 | Testing Method | Pentesting, white-box, gray-box | — | Tester has zero prior knowledge of the target system — simulates an outside attacker | 
 | SQL Injection | SQLi | 🌐 | Attack | OWASP Top 10, input validation | sqlmap, Burp Suite | Malicious SQL inserted via input fields to manipulate/access the database | |
 | Data in Use | — | 🌐 | Data State | Data at rest, data in transit, memory protection | Confidential computing, TEE | Hardest to protect — must be decrypted and actively processed in memory | |
 | Data in Transit | — | 🌐 | Data State | Data in use, data at rest | TLS, IPsec | Vulnerable during transmission — protect with strong encrypted protocols | |
@@ -38,6 +37,8 @@ Updated regularly.
 | Stateful Firewall | — | 🌐 | Hardware/Software | connection tracking | — | Tracks the context/state of active connections | |
 | Application Log Files | — | 🌐 | Data Source | SIEM, security monitoring, user activity | Splunk, ELK | Contains security events, errors, and user activity — key input for SOC monitoring | |
 | System Baselining (CPU/Memory Monitoring) | — | 🌐 | Technique | Anomaly-based detection, performance monitoring | Nagios, Zabbix | Tracks normal CPU/memory usage to spot deviations indicating issues or attacks | |---  
+
+---
 
 ### Quick-Add Row (copy & fill)
 
