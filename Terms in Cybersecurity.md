@@ -22,21 +22,21 @@ Updated regularly.
 | Insider Threat | — | 🌐 | Threat Actor | Someone with legitimate access who creates risk, intentionally or not — broader category than shadow IT | — | Shadow IT, unauthorized access |
 | Rogue Access Point | — | 🏢🔀 | Hardware/Attack | Unauthorized WAP physically connected to the network — different from a software/process workaround | — | Wireless security, evil twin |
 | Black-Box Engagement | — | 🌐 | Testing Method | Pentesting, white-box, gray-box | — | Tester has zero prior knowledge of the target system — simulates an outside attacker | 
-| SQL Injection | SQLi | 🌐 | Attack | OWASP Top 10, input validation | sqlmap, Burp Suite | Malicious SQL inserted via input fields to manipulate/access the database | |
-| Data in Use | — | 🌐 | Data State | Data at rest, data in transit, memory protection | Confidential computing, TEE | Hardest to protect — must be decrypted and actively processed in memory | |
-| Data in Transit | — | 🌐 | Data State | Data in use, data at rest | TLS, IPsec | Vulnerable during transmission — protect with strong encrypted protocols | |
-| Data at Rest | — | 🌐 | Data State | Data in use, data in transit | Disk/storage encryption, DLP | Generally easiest to secure — encryption + access controls | |
-| Session Replay | — | 🌐 | Attack | Session hijacking, authentication bypass | — | Intercepted communications replayed to potentially bypass authentication | |
-| Typosquatting | — | 🌐 | Attack | Phishing, domain spoofing | — | Registering domains that closely resemble a legitimate site | |
-| Watering Hole Attack | — | 🌐 | Attack | Social engineering, compromised sites, exploit code | — | Attacker compromises a site the victim already visits, injects exploit code to redirect them | |
+| SQL Injection | SQLi | 🌐 | Attack | Malicious SQL inserted via input fields to manipulate/access the database | sqlmap, Burp Suite | OWASP Top 10, input validation |
+| Data in Use | — | 🌐 | Data State | Hardest to protect — must be decrypted and actively processed in memory | Confidential computing, TEE | Data at rest, data in transit, memory protection |
+| Data in Transit | — | 🌐 | Data State | Vulnerable during transmission — protect with strong encrypted protocols | TLS, IPsec | Data in use, data at rest |
+| Data at Rest | — | 🌐 | Data State | Generally easiest to secure — encryption + access controls | Disk/storage encryption, DLP | Data in use, data in transit | 
+| Session Replay | — | 🌐 | Attack | Intercepted communications replayed to potentially bypass authentication | — | Session hijacking, authentication bypass |
+| Typosquatting | — | 🌐 | Attack | Registering domains that closely resemble a legitimate site | — | Phishing, domain spoofing | 
+| Watering Hole Attack | — | 🌐 | Attack | Attacker compromises a site the victim already visits, injects exploit code to redirect them | — | Social engineering, compromised sites, exploit code | 
 | Pretexting | — | 🌐 | Attack/Social Engineering | Phishing, social engineering | — | Creating a fabricated scenario/situation to fool the target | |
-| Signature-Based Monitoring | — | 🌐 | Detection Method | IDS/IPS, known threats| Snort, Suricata | Compares traffic against known attack patterns — lightweight but blind to zero-days until signature exists | |
-| Zero-Day Attack | — | 🌐 | Attack/Vulnerability | unknown software flaw ,not a Signature-based detection or anomaly-based detection , Novel attack | — | Exploit for a vulnerability with no existing patch/signature — best mitigated with behavior/anomaly detection | |
-| Anomaly-Based Detection | — | 🌐 | Detection Method | Baseline, behavior-based detection,zero-day | — | Flags behavior that deviates from an established baseline | |
-| Stateless Firewall | — | 🌐 | Hardware/Software | ACL, IP,port filtering,connectionless| — | Filters based on static factors like port and IP, no connection context | |
-| Stateful Firewall | — | 🌐 | Hardware/Software | connection tracking | — | Tracks the context/state of active connections | |
-| Application Log Files | — | 🌐 | Data Source | SIEM, security monitoring, user activity | Splunk, ELK | Contains security events, errors, and user activity — key input for SOC monitoring | |
-| System Baselining (CPU/Memory Monitoring) | — | 🌐 | Technique | Anomaly-based detection, performance monitoring | Nagios, Zabbix | Tracks normal CPU/memory usage to spot deviations indicating issues or attacks | |---  
+| Signature-Based Monitoring | — | 🌐 | Detection Method | Compares traffic against known attack patterns — lightweight but blind to zero-days until signature exists | Snort, Suricata | IDS/IPS, known threats |
+ Zero-Day Attack | — | 🌐 | Attack/Vulnerability | Exploit for a vulnerability with no existing patch/signature — best mitigated with behavior/anomaly detection | — | unknown software flaw, not a signature-based or anomaly-based detection, novel attack |
+| Anomaly-Based Detection | — | 🌐 | Detection Method | Flags behavior that deviates from an established baseline | — | Baseline, behavior-based detection, zero-day |
+| Stateless Firewall | — | 🌐 | Hardware/Software | Filters based on static factors like port and IP, no connection context | — | ACL, IP, port filtering, connectionless | 
+| Stateful Firewall | — | 🌐 | Hardware/Software | Tracks the context/state of active connections | — | connection tracking |
+| Application Log Files | — | 🌐 | Data Source | Contains security events, errors, and user activity — key input for SOC monitoring | Splunk, ELK | SIEM, security monitoring, user activity |
+| System Baselining (CPU/Memory Monitoring) | — | 🌐 | Technique | Tracks normal CPU/memory usage to spot deviations indicating issues or attacks | Nagios, Zabbix | Anomaly-based detection, performance monitoring |
 
 ---
 
