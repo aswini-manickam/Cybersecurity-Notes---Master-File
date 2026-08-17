@@ -45,6 +45,24 @@ Updated regularly.
 | Acknowledgment | — | 🌐 | Governance/Compliance | Employees stating they are aware of compliance requirements | — | Attestation, onboarding, policy sign-off | 
 | Attestation | — | 🌐 | Governance/Compliance | Employee confirming their actions adhere to policies | — | Acknowledgment, audit, compliance |
 | Offboarding | — | 🌐 | Process | Process used when an employee is terminated | — | Access revocation, onboarding, HR security | 
+| Fileless Virus | — | 🌐 | Malware | Doesn't install files - piggybacks on another program and loads into memory each time it runs, hard for AV to detect | — | Malware, memory-resident attack, LOLBins |
+| Spyware | — | 🌐 | Malware | Used to gather information from a target | — | Malware, keyloggers, data exfiltration |
+| Backdoor | — | 🌐 | Malware/Attack | Grants an attacker a way to re-enter the system later | — | Rootkit, persistence, RAT |
+| Rootkit | — | 🌐 | Malware | Gives an attacker administrative access to a system | — | Backdoor, privilege escalation, persistence |
+| Debug Mode | — | 🌐 | Weak Configuration/Vulnerability | Gives detailed error messages - can disclose too much info to attackers | — | Weak configurations, information disclosure |
+| Weak Configuration (Default Credentials) | — | 🌐 | Vulnerability | System running with default user credentials | — | Debug mode, insecure protocols, hardening |
+| Insecure Protocols (Telnet) | — | 🌐 | Vulnerability | System allowing telnet access is classified as having insecure protocols | — | Weak configurations, legacy platform | 
+| Legacy Platform Vulnerability | — | 🏢🔀 | Vulnerability | System running an outdated operating system | — | Legacy vulnerabilities, EOL/EOS systems | 
+| Risk Tolerance | — | 🌐 | Risk Management | Amount of risk an organization is willing to take — helps prioritize which vulnerabilities to address first | — | Exposure factor, residual risk, risk appetite | 
+| Exposure Factor | — | 🌐 | Risk Management | Percentage of loss an organization may experience if a vulnerability is exploited | — | Risk tolerance, ALE, SLE | 
+| Environmental Variables | — | 🌐 | Risk Management | Factors that influence vulnerability for specific industries | — | Risk tolerance, exposure factor |
+| Residual Risk | — | 🌐 | Risk Management | Risk that remains after a control has been applied | — | Risk tolerance, inherent risk, mitigation | 
+| Asymmetric Encryption | — | 🌐 | Algorithm/Encryption | Enables non-repudiation — private key corresponds to public key that authenticates digital signatures, only owner knows private key | RSA, ECC | Symmetric encryption, digital signatures, PKI |
+| Symmetric Encryption | — | 🌐 | Algorithm/Encryption | Offers confidentiality, used for bulk encryption, faster than asymmetric | AES, DES | Asymmetric encryption, bulk encryption | 
+| Access Control List | ACL | 🌐 | Software/Framework | List of permissions attached to an object, resides on firewalls/routers/computers, allows or denies access to a resource | — | NAC, firewalls, routers |
+| Network Access Control | NAC | 🌐 | Framework/Software | Enforces security policies before granting access to network resources | Cisco ISE, Aruba ClearPass | ACL, endpoint compliance | 
+| Certificate Revocation List | CRL | 🌐 | Software/Framework | Lists digital certificates from a CA that are no longer valid | — | PKI, CA, OCSP |
+| Secure Access Service Edge | SASE | ☁️🔀 | Architecture/Framework | An approach to network security combining networking and security into a cloud-delivered service | Zscaler, Palo Alto Prisma, Cato Networks | SD-WAN, Zero Trust, cloud security | 
 
 
 ---
