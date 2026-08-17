@@ -37,6 +37,15 @@ Updated regularly.
 | Stateful Firewall | — | 🌐 | Hardware/Software | Tracks the context/state of active connections | — | connection tracking |
 | Application Log Files | — | 🌐 | Data Source | Contains security events, errors, and user activity — key input for SOC monitoring | Splunk, ELK | SIEM, security monitoring, user activity |
 | System Baselining (CPU/Memory Monitoring) | — | 🌐 | Technique | Tracks normal CPU/memory usage to spot deviations indicating issues or attacks | Nagios, Zabbix | Anomaly-based detection, performance monitoring |
+| Hardware Security Module | HSM | 🏢🔀 | Hardware Appliance | Used for encryption during secure login/auth, digital signing, payment security — preferred when performance matters, faster than software encryption | Thales, YubiHSM, AWS CloudHSM | TPM, encryption, digital signatures, key management |
+| Host-Based Intrusion Detection System | HIDS | 🌐 | Software | Identifies suspicious behavior on a single system/host | OSSEC, Wazuh | IDS, endpoint monitoring, NIDS |
+| Router | — | 🌐 | Hardware Appliance | Makes decisions about sending packets out of a network | Cisco, Juniper | Routing, packet forwarding, firewall | 
+| Trusted Platform Module | TPM | 🏢🔀 | Hardware Appliance | Similar duties to HSM but built into/embedded in the system, whereas HSM is external/additional | — | HSM, secure boot, disk encryption |
+| Due Care | — | 🌐 | Governance/Compliance | Regularly reviewing and updating policies, taking proactive steps to keep controls effective | — | Due diligence, policy review, compliance |
+| Acknowledgment | — | 🌐 | Governance/Compliance | Employees stating they are aware of compliance requirements | — | Attestation, onboarding, policy sign-off | 
+| Attestation | — | 🌐 | Governance/Compliance | Employee confirming their actions adhere to policies | — | Acknowledgment, audit, compliance |
+| Offboarding | — | 🌐 | Process | Process used when an employee is terminated | — | Access revocation, onboarding, HR security | 
+
 
 ---
 
