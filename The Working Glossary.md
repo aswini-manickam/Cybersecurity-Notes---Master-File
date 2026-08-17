@@ -83,15 +83,18 @@ Platform as a Service | PaaS | ☁️ | Cloud Service Model | Provides OS/runtim
 | Software Bill of Materials | SBOM | 🌐 | Framework/Document | Inventories all components/dependencies for supply-chain transparency | - | Supply chain security, dependencies |
 | Quantitative Risk Analysis | - | 🌐 | Risk Management | Uses dollar figures (SLE, ARO, ALE) - objective, enables cost-benefit/ROI comparisons, but slower (needs financial data) | - | Qualitative analysis, ALE, SLE, ARO |
 | Qualitative Risk Analysis | - | 🌐 | Risk Management | Uses subjective categories (high/medium/low) - faster than quantitative | - | Quantitative analysis | 
-| Honeypot | — | 🌐 | Deception Technique | Not part of real business operations - any interaction with it lacks legitimate explanation, unlike production traffic | — | Deception tech, threat detection | 
-| Policy | — | 🌐 | Governance Document | High-level mandatory statement of management's security intent | — | Standard, procedure, guideline |
-| Procedure | — | 🌐 | Governance Document | Step-by-step instructions to carry out a task | — | Policy, standard, guideline |
-| Standard | — | 🌐 | Governance Document | Mandatory specification implementing a policy (e.g. min. 14-char password) | — | Policy, procedure, guideline |
-| Guideline | — | 🌐 | Governance Document | Optional, recommended best-practice advice | — | Policy, standard, procedure |
-| Vulnerability Scanning Process | — | 🌐 | Process | Order: 1) scope & authorization → 2) host/service discovery → 3) run scan (credentialed preferred) → 4) review findings report | Nessus, Qualys | Credentialed scan, pentesting | 
-
-
-
+| Honeypot | - | 🌐 | Deception Technique | Not part of real business operations - any interaction with it lacks legitimate explanation, unlike production traffic | - | Deception tech, threat detection | 
+| Policy | - | 🌐 | Governance Document | High-level mandatory statement of management's security intent | - | Standard, procedure, guideline |
+| Procedure | - | 🌐 | Governance Document | Step-by-step instructions to carry out a task | - | Policy, standard, guideline |
+| Standard | - | 🌐 | Governance Document | Mandatory specification implementing a policy (e.g. min. 14-char password) | - | Policy, procedure, guideline |
+| Guideline | - | 🌐 | Governance Document | Optional, recommended best-practice advice | - | Policy, standard, procedure |
+| Vulnerability Scanning Process | - | 🌐 | Process | Order: 1) scope & authorization → 2) host/service discovery → 3) run scan (credentialed preferred) → 4) review findings report | Nessus, Qualys | Credentialed scan, pentesting | 
+| Risk Avoidance | - | 🌐 | Risk Management | Eliminates the activity creating risk entirely (e.g. not storing card data removes PCI-DSS scope) | - | Risk mitigation, risk sharing/transfer |
+| Risk Sharing (Transfer) | - | 🌐 | Risk Management | Distributes risk among parties (e.g. outsourcing to a payment processor) | - | Risk avoidance, risk mitigation |
+| Risk Mitigation | - | 🌐 | Risk Management | Reduces risk while still performing the activity | - | Risk avoidance, risk sharing |
+| Attack Surface | - | 🌐 | Concept | All exposed points an attacker could exploit - includes overlooked infra like a monitoring tool with default creds and network access | - | Default credentials, weak configuration | |
+| Recovery Point Objective | RPO | 🌐 | Metric/BCDR | Max acceptable data loss - directly determines required backup frequency (lower RPO = more frequent backups) | - | RTO, backup automation | |
+| Recovery Time Objective | RTO | 🌐 | Metric/BCDR | Max acceptable downtime/recovery speed - distinct from RPO (data loss) | - | RPO, disaster recovery |
 
 
 
