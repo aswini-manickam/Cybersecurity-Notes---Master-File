@@ -1,8 +1,7 @@
-# Personal quick-reference table
+# The Working Glossary
 
-Cybersecurity has countless terms, tools, and acronyms - with new ones surfacing constantly. 
-So, this is a personal quick-reference table, filled in gradually as I come across new terms, so entries build up naturally over time rather than all at once. 
-Updated regularly.
+A running log of cybersecurity terms, tools, and exam keywords - added as I come across them, not in any particular order. 
+Each row is a quick lookup: what category it falls into, what it's often confused with, and a one-line note to jog memory fast.
 
 **Model key:** ☁️ Cloud | 🏢 On-Prem | 🔀 Hybrid | 🌐 Common
 
