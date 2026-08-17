@@ -95,9 +95,10 @@ Platform as a Service | PaaS | ☁️ | Cloud Service Model | Provides OS/runtim
 | Attack Surface | - | 🌐 | Concept | All exposed points an attacker could exploit - includes overlooked infra like a monitoring tool with default creds and network access | - | Default credentials, weak configuration | |
 | Recovery Point Objective | RPO | 🌐 | Metric/BCDR | Max acceptable data loss - directly determines required backup frequency (lower RPO = more frequent backups) | - | RTO, backup automation | |
 | Recovery Time Objective | RTO | 🌐 | Metric/BCDR | Max acceptable downtime/recovery speed - distinct from RPO (data loss) | - | RPO, disaster recovery |
-
-
-
+| Gray-Box Testing | - | 🌐 | Testing Method | Partial information (some architecture/user-level access) - between black-box and white-box | - | Black-box engagement, pentesting |
+| AES (Advanced Encryption Standard) | AES | 🌐 | Algorithm | Supports 128-, 192-, and 256-bit key sizes | - | Symmetric encryption |
+| Nation-State Actor | - | 🌐 | Threat Actor | Well-funded APT pursuing strategic espionage/disruption | - | APT, hacktivist, insider threat | 
+| Hacktivist | - | 🌐 | Threat Actor | Attacks to advance an ideological/political message, not profit | - | Nation-state, insider threat | 
 
 
 
