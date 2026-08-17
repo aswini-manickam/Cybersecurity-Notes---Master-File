@@ -7,15 +7,15 @@ Each row is a quick lookup: what category it falls into, what it's often confuse
 
 | Term | Acronym | Model |Category|  Note | Tools | Talk About It With |
 |---|---|---|---|---|---|---|
-| Security Information & Event Management | SIEM | 🌐 | --- | Collects/correlates logs but doesn't respond on its own - that's SOAR | Splunk, Wazuh, Sentinel, QRadar | Log aggregation, correlation, SOC, SOAR |
-| Resource Reuse | --- | ☁️ | --- | Cloud provider reassigns disks/storage to new tenants without wiping them-->vulnerability - old customer's sensitive data can leak to the new one | --- | Data remanence, disk sanitization, multi-tenancy |
-| VM Escape | --- | ☁️/🔀 | --- | Vulnerability in the hypervisor lets an attacker break out of their VM and access the host or other VMs | --- | Hypervisor, resource reuse, multi-tenancy |
-| VM Sprawl | --- | ☁️/🔀 | --- | VMs left running/not deprovisioned after they're no longer needed -Vulnerability - wastes resources and expands attack surface | --- | Resource reuse, asset management, shadow IT | 
-| Legacy Vulnerabilities | --- | 🏢/🔀 | --- | Systems still running after the manufacturer has stopped supporting/patching them | --- | end of life |
-| Baseline Lifecycle | --- | 🌐 | --- | cycle: establish → deploy → maintain → update | tools/vendors | 1. Baseline configuration(Establishing) ,2. Baseline deployment, 3. Baseline deviation/Drift (Maintaining), 4. Patch management(Update) | 
-| Simple Network Management Protocol | SNMP | 🌐 | --- | **Monitors**/manages network-attached devices | SolarWinds, PRTG, Nagios | Network monitoring, Management Information Base (MIB), traps, TCP/IP |
-| File Transfer Protocol | FTP | 🌐 | --- | **Transfers** files - unencrypted by default, so it's often flagged as insecure vs SFTP/FTPS | FileZilla, WinSCP | SFTP, FTPS, TCP port 21 |
-| Simple Mail Transfer Protocol | SMTP | 🌐 | --- | **Sends/relays email** receiving uses different protocols (POP3/IMAP), a common exam trap | Postfix, Exchange, Sendmail | Email security, SPF, DKIM, DMARC |
+| Security Information & Event Management | SIEM | 🌐 | - | Collects/correlates logs but doesn't respond on its own - that's SOAR | Splunk, Wazuh, Sentinel, QRadar | Log aggregation, correlation, SOC, SOAR |
+| Resource Reuse | - | ☁️ | - | Cloud provider reassigns disks/storage to new tenants without wiping them-->vulnerability - old customer's sensitive data can leak to the new one | - | Data remanence, disk sanitization, multi-tenancy |
+| VM Escape | - | ☁️/🔀 | - | Vulnerability in the hypervisor lets an attacker break out of their VM and access the host or other VMs | - | Hypervisor, resource reuse, multi-tenancy |
+| VM Sprawl | - | ☁️/🔀 | - | VMs left running/not deprovisioned after they're no longer needed -Vulnerability - wastes resources and expands attack surface | - | Resource reuse, asset management, shadow IT | 
+| Legacy Vulnerabilities | - | 🏢/🔀 | - | Systems still running after the manufacturer has stopped supporting/patching them | - | end of life |
+| Baseline Lifecycle | - | 🌐 | - | cycle: establish → deploy → maintain → update | tools/vendors | 1. Baseline configuration(Establishing) ,2. Baseline deployment, 3. Baseline deviation/Drift (Maintaining), 4. Patch management(Update) | 
+| Simple Network Management Protocol | SNMP | 🌐 | - | **Monitors**/manages network-attached devices | SolarWinds, PRTG, Nagios | Network monitoring, Management Information Base (MIB), traps, TCP/IP |
+| File Transfer Protocol | FTP | 🌐 | - | **Transfers** files - unencrypted by default, so it's often flagged as insecure vs SFTP/FTPS | FileZilla, WinSCP | SFTP, FTPS, TCP port 21 |
+| Simple Mail Transfer Protocol | SMTP | 🌐 | - | **Sends/relays email** receiving uses different protocols (POP3/IMAP), a common exam trap | Postfix, Exchange, Sendmail | Email security, SPF, DKIM, DMARC |
 | Domain Name System | DNS | 🌐 | --- | Translates/**Resolves** domain names to IP addresses frequently abused for spoofing/poisoning/tunneling attacks | BIND, Pi-hole, Route 53 | DNS spoofing, DNS sinkholing, DNSSEC |
 | Shadow IT | - | 🌐 | Risk/Practice | Employees using unapproved tech/workarounds outside IT-approved process - e.g. personal device instead of proper guest access | - | Insider threat, unauthorized workaround, BYOD |
 | Insider Threat | - | 🌐 | Threat Actor | Someone with legitimate access who creates risk, intentionally or not - broader category than shadow IT | - | Shadow IT, unauthorized access |
@@ -68,10 +68,47 @@ Platform as a Service | PaaS | ☁️ | Cloud Service Model | Provides OS/runtim
 | Infrastructure as a Service | IaaS | ☁️ | Cloud Service Model | Provides VMs/networking - customer still manages OS, runtime, and application | AWS EC2, Azure VMs | PaaS, SaaS |
 | Desktop as a Service | DaaS | ☁️ | Cloud Service Model | Provides virtual desktops - not application hosting | Citrix DaaS, AWS WorkSpaces | SaaS, VDI |
 | WEP (Wired Equivalent Privacy) | WEP | 🌐 | Protocol/Vulnerability | Broken RC4 implementation - crackable in minutes with tools like Aircrack-ng; issue is cryptographic, not device limits or cost | Aircrack-ng | WPA2, WPA3, wireless security | 
- 
+| Zero Trust: Policy Engine | - | 🌐 | Architecture Component | Makes the allow/deny access decision using policy and signals | - | Zero Trust, PDP, PEP |  
+| Zero Trust: Policy Administrator | - | 🌐 | Architecture Component | Executes the decision by establishing/terminating session credentials | - | Policy Engine, PEP |
+| Zero Trust: Policy Enforcement Point | PEP | 🌐 | Architecture Component | Enables, monitors, and terminates the connection to the resource | - | Policy Engine, Policy Administrator |
+| Zero Trust: Subject | - | 🌐 | Architecture Component | The user or service requesting access to a resource | - | Zero Trust, IAM |
+| Unrestricted File Upload | - | 🌐 | Vulnerability | Allows attackers to upload executable files the server processes - fix: validate type, magic bytes, store outside webroot | - | CSRF, XSS, SQLi |
+| Cross-Site Request Forgery | CSRF | 🌐 | Attack | Forces an authenticated user's browser to perform unwanted actions | - | XSS, session management |
+| Cross-Site Scripting | XSS | 🌐 | Attack | Injects client-side scripts - differs from file upload (server-side executable) | - | CSRF, input validation |
+| Availability | - | 🌐 | CIA Triad | Ensures authorized users can access systems/data when needed - an outage is an availability issue, not integrity/confidentiality | - | Integrity, confidentiality, uptime |
+| Integrity (CIA) | - | 🌐 | CIA Triad | Ensures data hasn't been altered/corrupted | Hashing | Availability, confidentiality, hashing |
+| Confidentiality (CIA) | - | 🌐 | CIA Triad | Prevents unauthorized access/exposure of data | Encryption | Availability, integrity |
+| Baiting | - | 🌐 | Attack/Social Engineering | Leaves enticing physical media (USB, CD) for targets to find - exploits curiosity, physical vs. digital | - | Phishing, vishing, pretexting |
+| Vishing | - | 🌐 | Attack/Social Engineering | Voice-call-based social engineering | - | Phishing, baiting, pretexting |
+| Software Bill of Materials | SBOM | 🌐 | Framework/Document | Inventories all components/dependencies for supply-chain transparency | - | Supply chain security, dependencies |
+| Quantitative Risk Analysis | - | 🌐 | Risk Management | Uses dollar figures (SLE, ARO, ALE) - objective, enables cost-benefit/ROI comparisons, but slower (needs financial data) | - | Qualitative analysis, ALE, SLE, ARO |
+| Qualitative Risk Analysis | - | 🌐 | Risk Management | Uses subjective categories (high/medium/low) - faster than quantitative | - | Quantitative analysis | 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
+
+
 
 ### Quick-Add Row (copy & fill)
 
