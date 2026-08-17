@@ -99,10 +99,13 @@ Platform as a Service | PaaS | ☁️ | Cloud Service Model | Provides OS/runtim
 | AES (Advanced Encryption Standard) | AES | 🌐 | Algorithm | Supports 128-, 192-, and 256-bit key sizes | - | Symmetric encryption |
 | Nation-State Actor | - | 🌐 | Threat Actor | Well-funded APT pursuing strategic espionage/disruption | - | APT, hacktivist, insider threat | 
 | Hacktivist | - | 🌐 | Threat Actor | Attacks to advance an ideological/political message, not profit | - | Nation-state, insider threat | 
-
-
-
-
+| Managerial Control | — | 🌐 | Control Type | Administrative/policy-driven (e.g. AUP) — directs behavior via management decisions, not technology | — | Technical, physical, operational controls |
+| Physical Control | — | 🌐 | Control Type | Tangible barriers (e.g. bollards) protecting a facility | — | Managerial, technical, operational |
+| Technical Control | — | 🌐 | Control Type | Enforced by technology/hardware/software (e.g. firewall ACL) | — | Managerial, physical, operational |
+| Operational Control | — | 🌐 | Control Type | Day-to-day process executed by people (e.g. guard badge checks) | — | Managerial, physical, technical |
+| HIPAA | — | 🌐 | Regulation | Governs PHI protection — requires admin, physical, technical safeguards for e-health records | — | GDPR, SOX, PCI-DSS |
+| SOX (Sarbanes-Oxley) | SOX | 🌐 | Regulation | Governs financial reporting integrity for publicly traded companies | — | HIPAA, GDPR, PCI-DSS |
+| GDPR | GDPR | 🌐 | Regulation | Governs personal data of EU residents — primary reg for EU data, not primary for US healthcare (HIPAA is) | — | Data controller, data processor, HIPAA |
 
 
 
