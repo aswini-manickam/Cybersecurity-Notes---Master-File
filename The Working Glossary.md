@@ -17,51 +17,58 @@ Each row is a quick lookup: what category it falls into, what it's often confuse
 | File Transfer Protocol | FTP | 🌐 | --- | **Transfers** files - unencrypted by default, so it's often flagged as insecure vs SFTP/FTPS | FileZilla, WinSCP | SFTP, FTPS, TCP port 21 |
 | Simple Mail Transfer Protocol | SMTP | 🌐 | --- | **Sends/relays email** receiving uses different protocols (POP3/IMAP), a common exam trap | Postfix, Exchange, Sendmail | Email security, SPF, DKIM, DMARC |
 | Domain Name System | DNS | 🌐 | --- | Translates/**Resolves** domain names to IP addresses frequently abused for spoofing/poisoning/tunneling attacks | BIND, Pi-hole, Route 53 | DNS spoofing, DNS sinkholing, DNSSEC |
-| Shadow IT | — | 🌐 | Risk/Practice | Employees using unapproved tech/workarounds outside IT-approved process — e.g. personal device instead of proper guest access | — | Insider threat, unauthorized workaround, BYOD |
-| Insider Threat | — | 🌐 | Threat Actor | Someone with legitimate access who creates risk, intentionally or not — broader category than shadow IT | — | Shadow IT, unauthorized access |
-| Rogue Access Point | — | 🏢🔀 | Hardware/Attack | Unauthorized WAP physically connected to the network — different from a software/process workaround | — | Wireless security, evil twin |
-| Black-Box Engagement | — | 🌐 | Testing Method | Pentesting, white-box, gray-box | — | Tester has zero prior knowledge of the target system — simulates an outside attacker | 
+| Shadow IT | - | 🌐 | Risk/Practice | Employees using unapproved tech/workarounds outside IT-approved process - e.g. personal device instead of proper guest access | - | Insider threat, unauthorized workaround, BYOD |
+| Insider Threat | - | 🌐 | Threat Actor | Someone with legitimate access who creates risk, intentionally or not - broader category than shadow IT | - | Shadow IT, unauthorized access |
+| Rogue Access Point | - | 🏢🔀 | Hardware/Attack | Unauthorized WAP physically connected to the network - different from a software/process workaround | - | Wireless security, evil twin |
+| Black-Box Engagement | - | 🌐 | Testing Method | Pentesting, white-box, gray-box | - | Tester has zero prior knowledge of the target system - simulates an outside attacker | 
 | SQL Injection | SQLi | 🌐 | Attack | Malicious SQL inserted via input fields to manipulate/access the database | sqlmap, Burp Suite | OWASP Top 10, input validation |
-| Data in Use | — | 🌐 | Data State | Hardest to protect — must be decrypted and actively processed in memory | Confidential computing, TEE | Data at rest, data in transit, memory protection |
-| Data in Transit | — | 🌐 | Data State | Vulnerable during transmission — protect with strong encrypted protocols | TLS, IPsec | Data in use, data at rest |
-| Data at Rest | — | 🌐 | Data State | Generally easiest to secure — encryption + access controls | Disk/storage encryption, DLP | Data in use, data in transit | 
-| Session Replay | — | 🌐 | Attack | Intercepted communications replayed to potentially bypass authentication | — | Session hijacking, authentication bypass |
-| Typosquatting | — | 🌐 | Attack | Registering domains that closely resemble a legitimate site | — | Phishing, domain spoofing | 
-| Watering Hole Attack | — | 🌐 | Attack | Attacker compromises a site the victim already visits, injects exploit code to redirect them | — | Social engineering, compromised sites, exploit code | 
-| Pretexting | — | 🌐 | Attack/Social Engineering | Phishing, social engineering | — | Creating a fabricated scenario/situation to fool the target | |
-| Signature-Based Monitoring | — | 🌐 | Detection Method | Compares traffic against known attack patterns — lightweight but blind to zero-days until signature exists | Snort, Suricata | IDS/IPS, known threats |
- Zero-Day Attack | — | 🌐 | Attack/Vulnerability | Exploit for a vulnerability with no existing patch/signature — best mitigated with behavior/anomaly detection | — | unknown software flaw, not a signature-based or anomaly-based detection, novel attack |
-| Anomaly-Based Detection | — | 🌐 | Detection Method | Flags behavior that deviates from an established baseline | — | Baseline, behavior-based detection, zero-day |
-| Stateless Firewall | — | 🌐 | Hardware/Software | Filters based on static factors like port and IP, no connection context | — | ACL, IP, port filtering, connectionless | 
-| Stateful Firewall | — | 🌐 | Hardware/Software | Tracks the context/state of active connections | — | connection tracking |
-| Application Log Files | — | 🌐 | Data Source | Contains security events, errors, and user activity — key input for SOC monitoring | Splunk, ELK | SIEM, security monitoring, user activity |
-| System Baselining (CPU/Memory Monitoring) | — | 🌐 | Technique | Tracks normal CPU/memory usage to spot deviations indicating issues or attacks | Nagios, Zabbix | Anomaly-based detection, performance monitoring |
-| Hardware Security Module | HSM | 🏢🔀 | Hardware Appliance | Used for encryption during secure login/auth, digital signing, payment security — preferred when performance matters, faster than software encryption | Thales, YubiHSM, AWS CloudHSM | TPM, encryption, digital signatures, key management |
+| Data in Use | - | 🌐 | Data State | Hardest to protect - must be decrypted and actively processed in memory | Confidential computing, TEE | Data at rest, data in transit, memory protection |
+| Data in Transit | - | 🌐 | Data State | Vulnerable during transmission - protect with strong encrypted protocols | TLS, IPsec | Data in use, data at rest |
+| Data at Rest | - | 🌐 | Data State | Generally easiest to secure - encryption + access controls | Disk/storage encryption, DLP | Data in use, data in transit | 
+| Session Replay | - | 🌐 | Attack | Intercepted communications replayed to potentially bypass authentication | - | Session hijacking, authentication bypass |
+| Typosquatting | - | 🌐 | Attack | Registering domains that closely resemble a legitimate site | - | Phishing, domain spoofing | 
+| Watering Hole Attack | - | 🌐 | Attack | Attacker compromises a site the victim already visits, injects exploit code to redirect them | - | Social engineering, compromised sites, exploit code | 
+| Pretexting | - | 🌐 | Attack/Social Engineering | Phishing, social engineering | - | Creating a fabricated scenario/situation to fool the target | |
+| Signature-Based Monitoring | - | 🌐 | Detection Method | Compares traffic against known attack patterns - lightweight but blind to zero-days until signature exists | Snort, Suricata | IDS/IPS, known threats |
+ Zero-Day Attack | - | 🌐 | Attack/Vulnerability | Exploit for a vulnerability with no existing patch/signature - best mitigated with behavior/anomaly detection | - | unknown software flaw, not a signature-based or anomaly-based detection, novel attack |
+| Anomaly-Based Detection | - | 🌐 | Detection Method | Flags behavior that deviates from an established baseline | - | Baseline, behavior-based detection, zero-day |
+| Stateless Firewall | - | 🌐 | Hardware/Software | Filters based on static factors like port and IP, no connection context | - | ACL, IP, port filtering, connectionless | 
+| Stateful Firewall | - | 🌐 | Hardware/Software | Tracks the context/state of active connections | - | connection tracking |
+| Application Log Files | - | 🌐 | Data Source | Contains security events, errors, and user activity - key input for SOC monitoring | Splunk, ELK | SIEM, security monitoring, user activity |
+| System Baselining (CPU/Memory Monitoring) | - | 🌐 | Technique | Tracks normal CPU/memory usage to spot deviations indicating issues or attacks | Nagios, Zabbix | Anomaly-based detection, performance monitoring |
+| Hardware Security Module | HSM | 🏢🔀 | Hardware Appliance | Used for encryption during secure login/auth, digital signing, payment security - preferred when performance matters, faster than software encryption | Thales, YubiHSM, AWS CloudHSM | TPM, encryption, digital signatures, key management |
 | Host-Based Intrusion Detection System | HIDS | 🌐 | Software | Identifies suspicious behavior on a single system/host | OSSEC, Wazuh | IDS, endpoint monitoring, NIDS |
-| Router | — | 🌐 | Hardware Appliance | Makes decisions about sending packets out of a network | Cisco, Juniper | Routing, packet forwarding, firewall | 
-| Trusted Platform Module | TPM | 🏢🔀 | Hardware Appliance | Similar duties to HSM but built into/embedded in the system, whereas HSM is external/additional | — | HSM, secure boot, disk encryption |
-| Due Care | — | 🌐 | Governance/Compliance | Regularly reviewing and updating policies, taking proactive steps to keep controls effective | — | Due diligence, policy review, compliance |
-| Acknowledgment | — | 🌐 | Governance/Compliance | Employees stating they are aware of compliance requirements | — | Attestation, onboarding, policy sign-off | 
-| Attestation | — | 🌐 | Governance/Compliance | Employee confirming their actions adhere to policies | — | Acknowledgment, audit, compliance |
-| Offboarding | — | 🌐 | Process | Process used when an employee is terminated | — | Access revocation, onboarding, HR security | 
-| Fileless Virus | — | 🌐 | Malware | Doesn't install files - piggybacks on another program and loads into memory each time it runs, hard for AV to detect | — | Malware, memory-resident attack, LOLBins |
-| Spyware | — | 🌐 | Malware | Used to gather information from a target | — | Malware, keyloggers, data exfiltration |
-| Backdoor | — | 🌐 | Malware/Attack | Grants an attacker a way to re-enter the system later | — | Rootkit, persistence, RAT |
-| Rootkit | — | 🌐 | Malware | Gives an attacker administrative access to a system | — | Backdoor, privilege escalation, persistence |
-| Debug Mode | — | 🌐 | Weak Configuration/Vulnerability | Gives detailed error messages - can disclose too much info to attackers | — | Weak configurations, information disclosure |
-| Weak Configuration (Default Credentials) | — | 🌐 | Vulnerability | System running with default user credentials | — | Debug mode, insecure protocols, hardening |
-| Insecure Protocols (Telnet) | — | 🌐 | Vulnerability | System allowing telnet access is classified as having insecure protocols | — | Weak configurations, legacy platform | 
-| Legacy Platform Vulnerability | — | 🏢🔀 | Vulnerability | System running an outdated operating system | — | Legacy vulnerabilities, EOL/EOS systems | 
-| Risk Tolerance | — | 🌐 | Risk Management | Amount of risk an organization is willing to take — helps prioritize which vulnerabilities to address first | — | Exposure factor, residual risk, risk appetite | 
-| Exposure Factor | — | 🌐 | Risk Management | Percentage of loss an organization may experience if a vulnerability is exploited | — | Risk tolerance, ALE, SLE | 
-| Environmental Variables | — | 🌐 | Risk Management | Factors that influence vulnerability for specific industries | — | Risk tolerance, exposure factor |
-| Residual Risk | — | 🌐 | Risk Management | Risk that remains after a control has been applied | — | Risk tolerance, inherent risk, mitigation | 
-| Asymmetric Encryption | — | 🌐 | Algorithm/Encryption | Enables non-repudiation — private key corresponds to public key that authenticates digital signatures, only owner knows private key | RSA, ECC | Symmetric encryption, digital signatures, PKI |
-| Symmetric Encryption | — | 🌐 | Algorithm/Encryption | Offers confidentiality, used for bulk encryption, faster than asymmetric | AES, DES | Asymmetric encryption, bulk encryption | 
-| Access Control List | ACL | 🌐 | Software/Framework | List of permissions attached to an object, resides on firewalls/routers/computers, allows or denies access to a resource | — | NAC, firewalls, routers |
+| Router | - | 🌐 | Hardware Appliance | Makes decisions about sending packets out of a network | Cisco, Juniper | Routing, packet forwarding, firewall | 
+| Trusted Platform Module | TPM | 🏢🔀 | Hardware Appliance | Similar duties to HSM but built into/embedded in the system, whereas HSM is external/additional | - | HSM, secure boot, disk encryption |
+| Due Care | - | 🌐 | Governance/Compliance | Regularly reviewing and updating policies, taking proactive steps to keep controls effective | - | Due diligence, policy review, compliance |
+| Acknowledgment | - | 🌐 | Governance/Compliance | Employees stating they are aware of compliance requirements | - | Attestation, onboarding, policy sign-off | 
+| Attestation | - | 🌐 | Governance/Compliance | Employee confirming their actions adhere to policies | - | Acknowledgment, audit, compliance |
+| Offboarding | - | 🌐 | Process | Process used when an employee is terminated | - | Access revocation, onboarding, HR security | 
+| Fileless Virus | - | 🌐 | Malware | Doesn't install files - piggybacks on another program and loads into memory each time it runs, hard for AV to detect | - | Malware, memory-resident attack, LOLBins |
+| Spyware | - | 🌐 | Malware | Used to gather information from a target | - | Malware, keyloggers, data exfiltration |
+| Backdoor | - | 🌐 | Malware/Attack | Grants an attacker a way to re-enter the system later | -| Rootkit, persistence, RAT |
+| Rootkit | - | 🌐 | Malware | Gives an attacker administrative access to a system | - | Backdoor, privilege escalation, persistence |
+| Debug Mode | - | 🌐 | Weak Configuration/Vulnerability | Gives detailed error messages - can disclose too much info to attackers | - | Weak configurations, information disclosure |
+| Weak Configuration (Default Credentials) | - | 🌐 | Vulnerability | System running with default user credentials | - | Debug mode, insecure protocols, hardening |
+| Insecure Protocols (Telnet) | - | 🌐 | Vulnerability | System allowing telnet access is classified as having insecure protocols | - | Weak configurations, legacy platform | 
+| Legacy Platform Vulnerability | - | 🏢🔀 | Vulnerability | System running an outdated operating system | - | Legacy vulnerabilities, EOL/EOS systems | 
+| Risk Tolerance | - | 🌐 | Risk Management | Amount of risk an organization is willing to take - helps prioritize which vulnerabilities to address first | - | Exposure factor, residual risk, risk appetite | 
+| Exposure Factor | - | 🌐 | Risk Management | Percentage of loss an organization may experience if a vulnerability is exploited | - | Risk tolerance, ALE, SLE | 
+| Environmental Variables | - | 🌐 | Risk Management | Factors that influence vulnerability for specific industries | - | Risk tolerance, exposure factor |
+| Residual Risk | - | 🌐 | Risk Management | Risk that remains after a control has been applied | - | Risk tolerance, inherent risk, mitigation | 
+| Asymmetric Encryption | - | 🌐 | Algorithm/Encryption | Enables non-repudiation - private key corresponds to public key that authenticates digital signatures, only owner knows private key | RSA, ECC | Symmetric encryption, digital signatures, PKI |
+| Symmetric Encryption | - | 🌐 | Algorithm/Encryption | Offers confidentiality, used for bulk encryption, faster than asymmetric | AES, DES | Asymmetric encryption, bulk encryption | 
+| Access Control List | ACL | 🌐 | Software/Framework | List of permissions attached to an object, resides on firewalls/routers/computers, allows or denies access to a resource | - | NAC, firewalls, routers |
 | Network Access Control | NAC | 🌐 | Framework/Software | Enforces security policies before granting access to network resources | Cisco ISE, Aruba ClearPass | ACL, endpoint compliance | 
-| Certificate Revocation List | CRL | 🌐 | Software/Framework | Lists digital certificates from a CA that are no longer valid | — | PKI, CA, OCSP |
+| Certificate Revocation List | CRL | 🌐 | Software/Framework | Lists digital certificates from a CA that are no longer valid | - | PKI, CA, OCSP |
 | Secure Access Service Edge | SASE | ☁️🔀 | Architecture/Framework | An approach to network security combining networking and security into a cloud-delivered service | Zscaler, Palo Alto Prisma, Cato Networks | SD-WAN, Zero Trust, cloud security | 
+| Automated User Provisioning | - | 🌐 | Process/Technique | Ensures consistent, rapid account creation with correct permissions - eliminates manual errors, automates the identity lifecycle (not incident response) | SailPoint, Okta Workflows | Identity lifecycle, deprovisioning, RBAC |
+| Software as a Service | SaaS | ☁️ | Cloud Service Model | Provides a complete, ready-to-use application (e.g. Microsoft 365) | M365, Salesforce | PaaS, IaaS, DaaS |
+Platform as a Service | PaaS | ☁️ | Cloud Service Model | Provides OS/runtime/middleware - developer manages only app and data | Azure App Service, AWS Elastic Beanstalk | SaaS, IaaS, managed database | 
+| Infrastructure as a Service | IaaS | ☁️ | Cloud Service Model | Provides VMs/networking - customer still manages OS, runtime, and application | AWS EC2, Azure VMs | PaaS, SaaS |
+| Desktop as a Service | DaaS | ☁️ | Cloud Service Model | Provides virtual desktops - not application hosting | Citrix DaaS, AWS WorkSpaces | SaaS, VDI |
+| WEP (Wired Equivalent Privacy) | WEP | 🌐 | Protocol/Vulnerability | Broken RC4 implementation - crackable in minutes with tools like Aircrack-ng; issue is cryptographic, not device limits or cost | Aircrack-ng | WPA2, WPA3, wireless security | 
+ 
 
 
 ---
