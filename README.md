@@ -129,6 +129,7 @@ Last touched: 08/16/2026
 | Krebs on Security | Investigative | https://krebsonsecurity.com/ |
 | Dark Reading | Enterprise security | https://www.darkreading.com/ |
 |Crowdstrike|Crowdstrike 2026 Threat hunting report|[Click here](https://www.crowdstrike.com/explore/2026-threat-hunting-report?utm_campaign=threathuntingreport&utm_content=-em-report-pcta&utm_language=en-au&utm_medium=emc&utm_source=mkto)|
+|step security|Security blogs|https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation|
 
 ### Forums / communities
 
