@@ -68,7 +68,7 @@ Last touched: 08/16/2026
 |---|---|---|---|
 |TAFESA Project management | 🟡| Oct 2026 | Project integration module in progress|
 |COMPTIA secuirty plus|🟡| Aug 8 2026 | Revise - areas to focus - sequencing question types.|
-
+|[Cloud and AI Security Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/cloud-and-ai-security-engineer-associate/?practice-assessment-type=certification)|⚪| Oct 2026 | Validates end-to-end security control implementation across Azure, hybrid setups, and generative AI workloads (covering Microsoft Defender, Entra, and Sentinel)|
 
 ---
 
