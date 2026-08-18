@@ -106,8 +106,8 @@ Platform as a Service | PaaS | ☁️ | Cloud Service Model | Provides OS/runtim
 | HIPAA | — | 🌐 | Regulation | Governs PHI protection — requires admin, physical, technical safeguards for e-health records | — | GDPR, SOX, PCI-DSS |
 | SOX (Sarbanes-Oxley) | SOX | 🌐 | Regulation | Governs financial reporting integrity for publicly traded companies | — | HIPAA, GDPR, PCI-DSS |
 | GDPR | GDPR | 🌐 | Regulation | Governs personal data of EU residents — primary reg for EU data, not primary for US healthcare (HIPAA is) | — | Data controller, data processor, HIPAA |
-
-
+| BGP Hijacking | — | 🌐 | Attack | Redirects internet routing at the ISP level — distinct from DNS poisoning (name resolution) | — | DNS poisoning, ARP spoofing | 
+| ARP Spoofing | — | 🌐 | Attack | Operates at Layer 2 with MAC addresses — distinct from DNS poisoning (Layer 7) | — | DNS poisoning, BGP hijacking, MITM | 
 
 
 
