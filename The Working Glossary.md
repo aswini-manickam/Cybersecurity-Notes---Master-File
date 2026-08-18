@@ -2,6 +2,7 @@
 
 A running log of cybersecurity terms, tools, and exam keywords - added as I come across them, not in any particular order. 
 Each row is a quick lookup: what category it falls into, what it's often confused with, and a one-line note to jog memory fast.
+**last update:** 18 Aug 2026
 
 **Model key:** ☁️ Cloud | 🏢 On-Prem | 🔀 Hybrid | 🌐 Common
 
