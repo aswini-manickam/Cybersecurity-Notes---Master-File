@@ -99,21 +99,25 @@ Platform as a Service | PaaS | ☁️ | Cloud Service Model | Provides OS/runtim
 | AES (Advanced Encryption Standard) | AES | 🌐 | Algorithm | Supports 128-, 192-, and 256-bit key sizes | - | Symmetric encryption |
 | Nation-State Actor | - | 🌐 | Threat Actor | Well-funded APT pursuing strategic espionage/disruption | - | APT, hacktivist, insider threat | 
 | Hacktivist | - | 🌐 | Threat Actor | Attacks to advance an ideological/political message, not profit | - | Nation-state, insider threat | 
-| Managerial Control | — | 🌐 | Control Type | Administrative/policy-driven (e.g. AUP) — directs behavior via management decisions, not technology | — | Technical, physical, operational controls |
-| Physical Control | — | 🌐 | Control Type | Tangible barriers (e.g. bollards) protecting a facility | — | Managerial, technical, operational |
-| Technical Control | — | 🌐 | Control Type | Enforced by technology/hardware/software (e.g. firewall ACL) | — | Managerial, physical, operational |
-| Operational Control | — | 🌐 | Control Type | Day-to-day process executed by people (e.g. guard badge checks) | — | Managerial, physical, technical |
-| HIPAA | — | 🌐 | Regulation | Governs PHI protection — requires admin, physical, technical safeguards for e-health records | — | GDPR, SOX, PCI-DSS |
-| SOX (Sarbanes-Oxley) | SOX | 🌐 | Regulation | Governs financial reporting integrity for publicly traded companies | — | HIPAA, GDPR, PCI-DSS |
-| GDPR | GDPR | 🌐 | Regulation | Governs personal data of EU residents — primary reg for EU data, not primary for US healthcare (HIPAA is) | — | Data controller, data processor, HIPAA |
-| BGP Hijacking | — | 🌐 | Attack | Redirects internet routing at the ISP level — distinct from DNS poisoning (name resolution) | — | DNS poisoning, ARP spoofing | 
-| ARP Spoofing | — | 🌐 | Attack | Operates at Layer 2 with MAC addresses — distinct from DNS poisoning (Layer 7) | — | DNS poisoning, BGP hijacking, MITM | 
-
-
-
-
-
-
+| Managerial Control | - | 🌐 | Control Type | Administrative/policy-driven (e.g. AUP) - directs behavior via management decisions, not technology | - | Technical, physical, operational controls |
+| Physical Control | - | 🌐 | Control Type | Tangible barriers (e.g. bollards) protecting a facility | - | Managerial, technical, operational |
+| Technical Control | - | 🌐 | Control Type | Enforced by technology/hardware/software (e.g. firewall ACL) | - | Managerial, physical, operational |
+| Operational Control | - | 🌐 | Control Type | Day-to-day process executed by people (e.g. guard badge checks) | - | Managerial, physical, technical |
+| HIPAA | - | 🌐 | Regulation | Governs PHI protection - requires admin, physical, technical safeguards for e-health records | - | GDPR, SOX, PCI-DSS |
+| SOX (Sarbanes-Oxley) | SOX | 🌐 | Regulation | Governs financial reporting integrity for publicly traded companies | - | HIPAA, GDPR, PCI-DSS |
+| GDPR | GDPR | 🌐 | Regulation | Governs personal data of EU residents - primary reg for EU data, not primary for US healthcare (HIPAA is) | - | Data controller, data processor, HIPAA |
+| BGP Hijacking | - | 🌐 | Attack | Redirects internet routing at the ISP level - distinct from DNS poisoning (name resolution) | - | DNS poisoning, ARP spoofing | 
+| ARP Spoofing | - | 🌐 | Attack | Operates at Layer 2 with MAC addresses - distinct from DNS poisoning (Layer 7) | - | DNS poisoning, BGP hijacking, MITM | Supply Chain Attack (Package/Dependency Poisoning) | — | 🌐 | Attack | Compromising a trusted vendor/tool/dependency/registry to push a malicious version under a legitimate name to the real downstream target | Trivy, PyPI, Docker Hub | Dependency Confusion, Third-Party Risk 
+| Python Package Index | PyPI | ☁️ | Software / Package Registry | Public registry for Python packages; installs run with no manual review per package | pip | npm, Supply Chain Attack |
+| Personal Access Token | PAT | 🌐 | Credential / Auth Token | Token that substitutes for username/password in git, cloud, or cluster auth — same credential class as cloud API keys / K8s tokens, differs only by scope/platform |GitHub, GitLab, Kubernetes | API Key, OAuth Token, Kubernetes Token, Cloud Keys |
+| CI/CD Pipeline | CI/CD | 🔀 | Software / Process | Automated build-test-release pipeline; a common supply-chain attack surface | Jenkins, GitHub Actions, GitLab CI | DevOps, Supply Chain Attack |
+| pull_request_target Misconfig | — | ☁️ | Vulnerability | Workflow trigger that can run with write-access secrets against untrusted PR code if set up wrong | GitHub Actions | PAT, CI/CD |
+| Known Exploited Vulnerabilities Catalog | KEV | 🌐 | OSINT/Knowledge/Framework | US-gov catalog of vulnerabilities confirmed as actively exploited in the wild | CISA | CVE, CISA |
+| Common Vulnerabilities and Exposures | CVE | 🌐 | OSINT/Knowledge/Framework | Standardized ID assigned to a publicly known vulnerability | MITRE | KEV, NVD |
+| Credential Stealer / Infostealer | — | 🌐 | Software / Malware | Malware that silently harvests saved passwords, keys, tokens from a host | — | SANDCLOCK, Keylogger |
+| Ransomware-as-a-Service (Affiliate Model) | RaaS | 🌐 | Threat Actor Model | Ransomware operators recruit affiliates who use stolen access/malware for a cut of proceeds | — | Ransomware, Threat Actor |
+| .pth Startup Persistence | — | 🏢 | Vulnerability / Persistence Technique | Python auto-executes code in .pth files at interpreter startup — abused for stealthy, import-free persistence | Python interpreter | Malware, Startup Persistence |
+| FBI FLASH Report | FLASH | 🌐 | Governance / Advisory Document | FBI advisory alerting industry to active threat-actor TTPs | FBI | CISA KEV, Threat Intel |
 
 
 ---
